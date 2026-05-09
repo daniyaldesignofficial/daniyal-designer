@@ -1,0 +1,106 @@
+{
+  "theme": "dark",
+  "archetype": "Electric & Neon / Jewel & Luxury Hybrid",
+  "colors": {
+    "primary": "#2563EB",
+    "background_base": "#111111",
+    "background_surface": "#1E1E1E",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#F3F4F6",
+    "glow_accent": "rgba(37, 99, 235, 0.35)",
+    "border_glow": "rgba(37, 99, 235, 0.5)"
+  },
+  "typography": {
+    "hero": "Playfair Display",
+    "headings": "Montserrat",
+    "body": "Inter",
+    "accent": "Bebas Neue",
+    "arabic": "Cairo",
+    "font_weights": {
+      "headings": 700,
+      "body": 400,
+      "accent": 400
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "grid_system": "bento-grid",
+    "card_padding": "p-8",
+    "radius": "rounded-2xl"
+  },
+  "surface_styles": {
+    "glassmorphism": "bg-[#1E1E1E]/60 backdrop-blur-xl border border-white/10",
+    "glowing_card": "bg-[#1E1E1E] border border-[#2563EB]/30 hover:border-[#2563EB] shadow-[0_0_20px_rgba(37,99,235,0.15)] hover:shadow-[0_0_30px_rgba(37,99,235,0.35)] transition-all duration-300",
+    "gradient_mesh": "bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#2563EB]/20 via-[#111111] to-[#111111]"
+  },
+  "animations": {
+    "hover_lift": "-translate-y-2",
+    "fade_in_up": "opacity-0 translate-y-8 transition-all duration-700",
+    "pulse_glow": "animate-pulse",
+    "cursor": "custom global cursor with blue dot and outer ring",
+    "particles": "tsparticles or framer-motion floating blur blobs"
+  },
+  "media_urls": {
+    "cartoon_character_logo": {
+      "url": "https://customer-assets.emergentagent.com/job_268b2a2b-092b-44c7-b558-c0aa888ff868/artifacts/axy3ezzu_%E2%9C%94%20Visit%20Visa%20%E2%9C%94%20Work%20Visa%20%E2%9C%94%20Fast%20Processing%20%E2%9C%94%20Expert%20Guidance%20%2824%29.png",
+      "description": "Cartoon character logo provided by user. Use in Hero and About sections."
+    },
+    "hero_background": {
+      "url": "https://images.pexels.com/photos/31032753/pexels-photo-31032753.jpeg",
+      "description": "Sleek abstract art with curved dark blue and black patterns."
+    },
+    "designer_photo": {
+      "url": "https://images.unsplash.com/photo-1613909207039-6b173b755cc1",
+      "description": "Man in black shirt sitting in front of computer, useful for About section if needed."
+    },
+    "portfolio_item_1": {
+      "url": "https://images.unsplash.com/photo-1626785774573-4b799315345d",
+      "description": "Silver iMac desk setup for website mockups."
+    },
+    "portfolio_item_2": {
+      "url": "https://images.unsplash.com/photo-1561070791-2526d30994b5",
+      "description": "Color code book for branding mockups."
+    }
+  },
+  "components": {
+    "navbar": {
+      "style": "glassmorphism, sticky top-0 z-50",
+      "elements": ["DGD / DANIYAL wordmark", "Navigation links", "EN/AR language toggle", "Mobile hamburger menu (animated)"]
+    },
+    "hero": {
+      "elements": ["Fullscreen height", "Gradient mesh background", "Floating particles (TSParticles/Framer Motion)", "Cartoon character logo", "Typing animation for roles", "CTAs (Magnetic Buttons)"]
+    },
+    "about": {
+      "elements": ["Split layout", "Animated counters (react-countup or framer-motion)"]
+    },
+    "services": {
+      "elements": ["8 Glassmorphism cards", "Glowing border on hover", "Hover lift", "Animated SVG icons"]
+    },
+    "portfolio": {
+      "elements": ["Filter tabs (All/Logo/Branding/Website/Social Media/Resume)", "Grid layout", "Hover zoom and overlay with 'View Project'"]
+    },
+    "testimonials": {
+      "elements": ["Auto-sliding carousel (Swiper/Embla)", "10-15 Glassmorphism cards", "Blue glow borders", "Country flags and 5-star ratings"]
+    },
+    "pricing": {
+      "elements": ["3 packages", "Middle 'Most Popular' with glow badge and prominent scaling"]
+    },
+    "contact": {
+      "elements": ["Split layout", "Animated social/location icons", "Contact form with validation", "Big animated WhatsApp CTA button"]
+    },
+    "global": {
+      "elements": ["Floating pulsing WhatsApp button", "Scroll-to-top button", "Custom cursor", "DGD logo preloader"]
+    }
+  },
+  "special_instructions": [
+    "Ensure complete RTL layout support when Arabic is selected. Store preference in localStorage.",
+    "No placeholder text. All buttons MUST work live.",
+    "Do NOT use 'Emergent' branding anywhere.",
+    "Incorporate data-testid attributes on interactive elements.",
+    "Use framer-motion for page load animations and scroll reveals.",
+    "Use react-fast-marquee for the Trusted By section.",
+    "Contact form must simulate saving to DB or work visually.",
+    "All social/WhatsApp buttons must link to the specified WhatsApp (+973 3374 0941) or social media handles (Instagram @daniyaldesignerofficial, Facebook Daniyal Designer Official)."
+  ]
+}
